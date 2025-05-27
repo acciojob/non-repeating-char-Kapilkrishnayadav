@@ -2,7 +2,7 @@ function firstNonRepeatedChar(str) {
  // Write your code here
 	let o={};
 	for (let l of str) {
-		if(str[l])
+		if(o[l])
 		{
 			o[l]++;
 		}
@@ -18,5 +18,5 @@ function firstNonRepeatedChar(str) {
 		}
 	}
 }
-const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+// const input = prompt("Enter a string");
+// alert(firstNonRepeatedChar(input)); 
